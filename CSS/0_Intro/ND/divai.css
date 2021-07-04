@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Monster;
+    src: url('Roboto-bold.ttf');
+}
+
+@font-face {
+    font-family: RedBull;
+    src: url('Roboto-bold.ttf');
+}
+
+@font-face {
+    font-family: Dynamite;
+    src: url('Roboto-bold.ttf');
+}
+
+@font-face {
+    font-family: RockStar;
+    src: url('Roboto-bold.ttf');
+}
+
+div {
+    font-family: Monster;
+}
+
+.semi-bold {
+    font-weight: 700;
+}
+
+.container-2  {
+    font-family: RedBull;
+}
+
+.semi-bold {
+    font-weight: 700;
+}
+
+.container-3 {
+    font-family: Dynamite;
+}
+
+.semi-bold {
+    font-weight: 700;
+}
+
+.container-4  {
+    font-family: RockStar;
+}
+
+.semi-bold {
+    font-weight: 700;
+}
+
+div {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("https://logos-download.com/wp-content/uploads/2016/04/Monster_Energy_logo_black-700x198.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-2 {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(rgba(122, 75, 137, 0.74), rgba(229, 96, 74, 0.75)), url("https://th.bing.com/th/id/R2fb6256708aaa36c9f423b0f7f0f2e54?rik=Kn8qcgYodRRN0g&riu=http%3a%2f%2fwallpapercave.com%2fwp%2foR4lJ5R.jpg&ehk=SLxekaTQb6CODu3BfENI3xoQO2UW3wOuEuX%2b3SBUaIs%3d&risl=&pid=ImgRaw");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-3  {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 101, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://th.bing.com/th/id/Rc5577ce2a5faec8585ad171c50499689?rik=saSXUg%2bhD3ouoA&pid=ImgRaw");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-4  {
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(rgba(13, 0, 163, 0.84), rgba(0, 168, 255, 0.71)), url("https://www.seekpng.com/png/detail/532-5320521_rockstar-energy-logo-vector-for-kids-rockstar-energy.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}

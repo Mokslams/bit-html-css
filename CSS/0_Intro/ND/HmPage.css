@@ -1,0 +1,28 @@
+h1, h3 {
+    text-align: center;
+    margin: 0 ;
+}
+
+div {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid ;
+    background-color: lightblue;
+    border-style: 5px solid ;
+}
+
+img {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.container > h1 {
+    margin: 0%;
+}
+.container > h3 {
+    margin: 0%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}

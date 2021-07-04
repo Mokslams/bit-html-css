@@ -1,0 +1,83 @@
+.container {
+    width: 250px;
+    height: 190px;
+    margin: 0px 5px;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url('opensans-bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url('opensans-semibold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url('opensans-light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url('opensans-regural.ttf');
+}
+
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-family: opensans;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0px 5px;
+    color: rgb(14, 6, 32);
+}
+
+h3 {
+    margin: 0px;
+    margin-left: 5px;
+    color: rgb(14, 6, 32);
+    font-weight: 600;
+}
+
+p {
+    font-size: 10px;
+    margin: 5px;
+    color: rgb(14, 6, 32);
+}
+
+button {
+    margin: 5px;
+    border: 2px solid rgb(44, 207, 109);
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 3px 30px;
+    cursor: pointer;
+    height: 25px;
+    font-size: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(44, 207, 109);
+    color: #ffff;
+}
+
+@media screen and (max-width:600px) {
+    .hidden {
+        display: none;
+    }
+}

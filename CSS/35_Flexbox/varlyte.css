@@ -1,0 +1,79 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+#board {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#pond, #background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#pond {
+    
+    z-index: 1;
+}
+
+#background {
+    background-color: #1F5768;
+}
+
+.frog, .lilypad {
+    
+    position: relative;
+}
+
+.frog .bg {
+    max-width: 210px;
+    max-height: 158px;
+    min-width: 210px;
+    min-height: 158px;
+    background-position: center center;
+    background-size: 40% 60%;
+    background-repeat: no-repeat;
+}
+
+.frog.green .bg {
+    background-image: url('https://flexboxfroggy.com/images/frog-green.svg');
+}
+
+.frog.red .bg {
+    background-image: url('https://flexboxfroggy.com/images/frog-red.svg');
+}
+
+.frog.yellow .bg {
+    background-image: url('https://flexboxfroggy.com/images/frog-yellow.svg');
+}
+
+.lilypad .bg {
+    max-width: 210px;
+    max-height: 158px;
+    min-width: 210px;
+    min-height: 158px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lilypad.green .bg {
+    background-image: url('https://flexboxfroggy.com/images/lilypad-green.svg');
+}
+
+.lilypad.red .bg {
+    background-image: url('https://flexboxfroggy.com/images/lilypad-red.svg');
+}
+
+.lilypad.yellow .bg {
+    background-image: url('https://flexboxfroggy.com/images/lilypad-yellow.svg');
+}

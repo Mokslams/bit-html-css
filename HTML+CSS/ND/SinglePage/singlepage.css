@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+html, body {
+    height: 100%;
+    font-size: 25px;
+    scroll-behavior: smooth;
+}
+
+html {
+    background: url("https://2.bp.blogspot.com/-SUMDIuZ7m48/TeWj1YDWcNI/AAAAAAAABhg/9fjPiDZHwms/s1600/winter.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+p {
+    padding: 0 5%;
+    margin: 25px 0;
+}
+
+header {
+    height: 55px;
+    background: rgba(255, 255, 255, .5);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+header a {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#content {
+    height: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#content h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    color: #ffff;
+}
+
+#show-more {
+    text-align: center;
+    background: #eeeeec;
+}
+
+#show-more a {
+    color: #aaa;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+#show-more a:hover {
+    color: #777;
+}
+
+#white-container {
+    background-color: #eeeeec;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+#transparent-container {
+    background: rgba(255, 255, 255, .5);
+    overflow: hidden;
+    padding: 0 5%;
+}
+
+footer {
+    background: #010105;
+    color: #eeeeec;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+footer a p {
+    color: blue;
+    text-decoration: underline;
+    transition: 500ms;
+}

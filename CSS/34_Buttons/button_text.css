@@ -1,0 +1,25 @@
+.button-text {
+    padding: 6px 8px;
+}
+
+.button-text:disabled,
+.button-text[disabled] {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.button-text-primary {
+    color: #1976d2;
+}
+
+.button-text-primary:hover {
+    background-color: rgba(25, 118, 210, 0.04);
+}
+
+.button-text-secondary {
+    color: rgb(220, 0, 78);
+}
+
+.button-text-secondary:hover {
+    background-color: rgba(220, 0, 78, 0.04);
+}
+

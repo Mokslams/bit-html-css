@@ -1,0 +1,38 @@
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: OpenSans;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    border-bottom: 5px solid;
+    flex: 0 1 auto;
+}
+
+.header>h1 {
+    margin: 0;
+}
+
+.header>h4 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.image-container {
+    flex: 1 1 auto;
+    padding: 80px 50px;
+}
+
+.image-container>img {
+    width: 100%;
+}

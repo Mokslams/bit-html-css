@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.container {
+    padding: 0px 20px;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 24px;
+    border-radius: 4px;
+}
+
+.container-spacer {
+    height: 30px;
+}

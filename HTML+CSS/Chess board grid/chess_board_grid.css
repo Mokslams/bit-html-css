@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container { 
+    background: green;
+    height: 600px;
+    width: 600px;
+    display: grid;
+    grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+}
+
+.white {
+    background-color: white;
+}
+
+.brown {
+    background-color: #654321;
+}
+
+.grid-container div {
+    outline: 2px solid;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.bishop-b {
+    background-image: url('../ND/chess\ board/figures/bishop-b.svg');
+}
+.bishop-w {
+    background-image: url('figures/bishop-w.svg');
+}
+.king-b {
+    background-image: url('figures/king-b.svg');
+}
+.king-w {
+    background-image: url('figures/king-w.svg');
+}
+.knight-b {
+    background-image: url('figures/knight-b.svg');
+}
+.knight-w {
+    background-image: url('figures/knight-w.svg');
+}
+.pawn-b {
+    background-image: url('figures/pawn-b.svg');
+}
+.pawn-w {
+    background-image: url('figures/pawn-w.svg');
+}
+.queen-b {
+    background-image: url('figures/queen-b.svg');
+}
+.queen-w {
+    background-image: url('figures/queen-w.svg');
+}
+.rook-b {
+    background-image: url('figures/rook-b.svg');
+}
+.rook-w {
+    background-image: url('figures/rook-w.svg');
+}

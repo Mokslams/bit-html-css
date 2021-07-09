@@ -1,0 +1,23 @@
+@font-face {
+    font-family: dancing-script;
+    src: url('../Fonts/Dancing_Script/DancingScript-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: dancing-script;
+    src: url('../Fonts/Dancing_Script/DancingScript-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: dancing-script;
+    src: url('../Fonts/Dancing_Script/DancingScript-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: dancing-script;
+    src: url('../Fonts/Dancing_Script/DancingScript-Bold.ttf');
+    font-weight: 700;
+}

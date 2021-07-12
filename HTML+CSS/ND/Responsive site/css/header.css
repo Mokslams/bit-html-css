@@ -1,0 +1,41 @@
+header {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 60px;
+}
+
+header .bg {
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background: #333 url('../assets/pexels-photo-248515.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+}
+
+header p {
+    margin: 1rem 0;
+}
+
+header a {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+
+header a:hover {
+    background: #eaeaea;
+    color: #333;
+}

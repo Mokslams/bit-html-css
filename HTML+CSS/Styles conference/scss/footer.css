@@ -1,0 +1,34 @@
+footer {
+  padding: 44px 0 44px 0;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #648880;
+}
+
+footer .container small {
+  font-weight: 400;
+  color: #648880;
+}
+
+footer .container nav a {
+  margin: 0 10px;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer .container nav a:hover {
+  color: #648880;
+}
+/*# sourceMappingURL=footer.css.map */

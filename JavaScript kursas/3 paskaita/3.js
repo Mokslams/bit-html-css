@@ -195,20 +195,12 @@ console.log(kaDalinam / daliklis, kaDalinam, daliklis);
 let egzaminoRezultatas = rand(1, 10);
 console.log(egzaminoRezultatas);
 //isvesti rezultata ir sprendima aaminas islaikytas maziausias islaikymo balas 4
-if (4 < 10) {
-    console.log('Islaikytas');
-
-    if (4 > 10) {
-        console.log('Neislaikytas');
-    }
-    else if (4 == 10) {
-        console.log('Islaikytas');
-    }
-    else {
-        console.log('neislaikytas');
-    }
+if (egzaminoRezultatas >= 4 ) {
+    console.log('Egzaminas islaikytas');
 }
-
+else {
+    console.log('Egzaminas neislaikytas');
+}
 //nr 2.
 
 let eksperimentoRezultatas = rand(1, 4);
@@ -218,12 +210,18 @@ let z2 = 4;
 
 console.log(z1, z2);
 
+if (z1 == 1 || z2 == 4 ) {
+    console.log('Eksperimentas pavyko');
+} else {
+    console.log('Eksperimentas nepavyko');
+}
+
 
 
 //3.
 let automobilioGreitis = rand(40, 125);
 // Išvesti automobilio greitį ir baudos dydį, jeigu greiti didesnis nei 60. Bauda yra viršytas greitis X 5
-//nr 4
+
 console.log(automobilioGreitis);
 
 if (automobilioGreitis > 60) {
@@ -232,15 +230,19 @@ if (automobilioGreitis > 60) {
     console.log('Nevirsytas greitis');
 }
 
-
+//nr 4 
+console.log('--------------Ketvirta uzduotis-------------');
 let eilesNumeris = rand(1, 30);
 
-if (eilesNumeris % 2 == 0);
+if (eilesNumeris % 2 == 0) {
+    console.log('Skaicius lyginis');
+}
 else {
     console.log('Skaicius nelyginis');
 }
 
 //nr5 
+console.log('-------Nr5--------')
 let raideABC = rand(1, 3);
 if (raideABC == 1) {
     console.log('A');
@@ -253,6 +255,7 @@ if (raideABC == 1) {
 
 
 //nr 6 
+console.log('-------Nr6--------')
 
 let pirmas = rand(0, 2);
 
@@ -260,7 +263,7 @@ let antras = rand(0, 2);
 
 console.log('pirmas', pirmas, 'antras', antras);
 
-if (pirmas + antras == pirmas * antras) {
+if (pirmas + antras > pirmas * antras) {
     console.log('suma');
 }
 else if (pirmas * antras) {
@@ -268,6 +271,7 @@ else if (pirmas * antras) {
 }
 
 //7.
+console.log('--------Nr7-------')
 let asilai = rand(0, 2);
 let karves = rand(0, 2);
 // Išvesti asilų ir karvių skaičių ir išvesti rezultatą "gyvulių yra" kai yra nors viena karvė ar asilas arba "gyvulių nėra" jeigu nėra nei karvių nei asilų
@@ -282,6 +286,7 @@ else {
 }
 
 //8.
+console.log('--------Nr8-------')
 let dalyvis1 = rand(1, 4);
 let dalyvis2 = rand(1, 4);
 // Išvesti dalyvių pasirinktus skaičius ir pranešimą "Laimėjo", jeigu dalyvių skaičių suma didesnė nei 6 arba tie skaičiai yra vienodi. Pranešimą "Pralaimėjo" - priešingu atveju
@@ -295,6 +300,7 @@ if (dalyvis1 + dalyvis2 > 6 || dalyvis1 == dalyvis2) {
 }
 
 //9.
+console.log('--------Nr9-------')
 let daug = rand(1000000, 9999999);
 // Išvesti skaičių daug ir suskaičiuoti iš kelių duotų skaičių: 5, 10, 33 jis dalijasi be liekanos. Rezultatą išvesti.
 let mazai = 0;
@@ -316,6 +322,8 @@ console.log('sekmingai padalinta be liekanos: ', mazai);
 
 
 //10.
+console.log('--------Nr10-------')
+
 let as = rand(0, 2) ? (rand(0, 1) ? 'popierius' : 'zirklės') : 'akmuo';
 let tu = rand(0, 2) ? (rand(0, 1) ? 'popierius' : 'zirklės') : 'akmuo';
 // Išvesti as ir tu kintamuosius ir kas laimėjo as ar tu
